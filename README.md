@@ -1,5 +1,5 @@
 # 3tier-application-deployment
-three tire application deployment by using nginx on the EC2 server AWS
+Three tire application deployment by using nginx on the EC2 server AWS
 
 
 
