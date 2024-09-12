@@ -1,6 +1,6 @@
 # 3tier-application-deployment
 Three tire application deployment by using nginx on the EC2 server AWS,
-applications based on React, Node js, SQL 
+Applications based on React, Node js, SQL 
 
 
 
