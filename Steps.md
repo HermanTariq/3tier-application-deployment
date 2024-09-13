@@ -99,9 +99,41 @@ sudo apt-get install -y nodejs
 
 ### BACKEND
 
-Integrate Database with backend 
+* Step : 1  install npm 
+  
+  ``` 
+  cd /backend
+  sudo npm i
+  ```
+*after npm i you get **node_modules** file*.
 
-``` 
-cd /backend
+ ![Alternative text](images/node%20module%20file.PNG)
+* Step : 2 Configure database in index.js file
 
-```
+    ![Alternative text](images/connect%20database%20with%20backend.PNG)
+
+* Step : 3 sudo npm run start 
+  
+     ```
+       sudo npm run  star 
+     ```
+   *result*
+
+   ![Alt text](images/sudo%20npm%20run%20start.PNG)
+
+* Step:4 for keep runing with the help of porgram manager
+  
+  ``` 
+  sudo pm2 start npm --name "my-backend" -- run start
+  ```
+  *if the pm2 not working run command*
+   ```
+   npm install pm2@latest -g
+   ```
+   *extra important command for pm2*
+
+   ```
+   pm2 logs 
+
+   pm2 list  
+   ```
